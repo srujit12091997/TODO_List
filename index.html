@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Enhanced Todo List</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>todos</h1>
+        <div class="todo-container">
+            <form id="form">
+                <div class="input-container">
+                    <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+                    <button type="submit" class="add-btn">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </form>
+
+            <div class="todo-header">
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="active">Active</button>
+                    <button class="filter-btn" data-filter="completed">Completed</button>
+                </div>
+                <button id="clear-completed" class="clear-btn">Clear Completed</button>
+            </div>
+
+            <ul class="todos" id="todos"></ul>
+
+            <div class="todo-footer">
+                <span id="items-left">0 items left</span>
+                <button id="clear-all" class="clear-btn">Clear All</button>
+            </div>
+        </div>
+        
+        <small>
+            Left click to toggle completed. <br> 
+            Right click to delete todo
+        </small>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
