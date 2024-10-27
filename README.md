@@ -150,4 +150,4 @@ Project Link: [https://github.com/srujitv/todo-list](https://github.com/srujitv/
 
 ---
 
-Made with ❤️ by [Srujit Varasala](https://github.com/srujitv)
+Made with ❤️ by [Srujit Varasala](https://github.com/srujit12091997)
